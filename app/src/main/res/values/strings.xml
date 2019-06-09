@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Pocket</string>
+    <string name="result_message"></string>
+    <string name="placeholder_message"></string>
+    <string name="info_message">Enter an URL</string>
+    <string name="button_add">Add</string>
+    <string name="button_del">Del</string>
+</resources>
