@@ -27,8 +27,9 @@ function switch() {
 }
 
 function switch_ip() {
+    newIp=$1
     configFile="src/main/assets/configure"
-    sed -i "_bak" "s/^host = http:\/\/.*:8001$/host = http:\/\/${localIp}:8001/g" ${configFile}
+    sed -i "_bak" "s/^host = http:\/\/.*:8001$/host = http:\/\/${newIp}:8001/g" ${configFile}
     cat ${configFile}
 }
 
